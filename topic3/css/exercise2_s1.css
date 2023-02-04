@@ -1,1 +1,9 @@
-@import "exercise2_s2.css"
+@import "exercise2_s2.css";
+
+body {
+    background-color: gray;
+}
+
+ol {
+    margin-top: 2rem;
+}
