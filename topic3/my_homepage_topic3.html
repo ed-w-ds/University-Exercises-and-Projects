@@ -5,21 +5,21 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css\reset.css">
+        <link rel="stylesheet" type="text/css" href="css\exercise4_s1.css">
         <title>my homepage</title>
     </head>
 
-    <body>
+    <body class="margin_rl">
 
             <hgroup>
                 <h1>Eduards Lisovskis</h1>
                 <h2>Student</h2>
             </hgroup>
-            <nav id="sections">
-                <ul>
-                    <li><a href="#hobbies">My Hobbies</a></li>
-                    <li><a href="#my_CV">My CV (section)</a></li>
-                    <li><a href="#links">Links</a></li>
-                </ul>
+            <nav id="sections" class="topnav">
+                <a href="#hobbies">My Hobbies</a>
+                <a href="#my_CV">My CV (section)</a>
+                <a href="#links">Links</a>
             </nav>
 
         <article>
@@ -27,6 +27,7 @@
                 <header id="about_myself">
                     <h3>About Myself</h3>
                 </header>
+                <hr>
                 <p>My name is Eduards Lisovskis and I am a Creative Computing student within the School of Electronic Engineering and Computer Science at Queen Mary University of London</p>
                 <figure>
                     <img src="QMUL.jpg" alt="Queen's Building at QMUL">
@@ -37,12 +38,14 @@
                 <header>
                     <h3>My Hobbies</h3>
                 </header>
+                <hr>
                 <p>My hobbies include the following - hobby1, hobby2 etc.</p>
             </section>
             <section id = "my_CV">
                 <header>
                     <h3>My CV</h3>
                 </header>
+                <hr>
                 <p>You can download my CV by clicking this <a href="My_CV.docx" download="My_CV.docx">link</a> (not my actual CV)</p>
                 <p>Updated on January 26, 2023</p>
             </section>
@@ -50,6 +53,7 @@
                 <header>
                     <h3>Links</h3>
                 </header>
+                <hr>
                 <p>Some links to my favourite websites:</p>
                 <ul>
                     <li><a href="https://www.leetcode.com">LeetCode</a></li>

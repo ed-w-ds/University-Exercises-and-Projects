@@ -1,0 +1,70 @@
+hgroup {
+    background-color: seagreen;
+    margin-top: 0;
+    padding: 3vw;
+}
+
+/* set left and right margins for the whole page*/
+body {
+    margin-top: 0;
+    margin-right: 10vw !important;
+    margin-left: 10vw !important;
+    background-color: gray;
+}
+
+article {
+    margin-top: 3vh;
+    padding: 3vh;
+    background-color: white;
+}
+
+img {
+    max-width:100%;
+    max-height: 100%;
+    height:auto;
+  }
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+h2{
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+
+h3{
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: seagreen;
+}
+
+
+.topnav {
+    background-color: limegreen;
+    overflow: hidden;
+    font-size: 1.2em;
+
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 2vw;
+  }
+
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
