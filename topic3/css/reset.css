@@ -1,5 +1,7 @@
-hgroup, nav, article, section, header, footer, p, img, 
-figcaption, ul, li, a, h1, h2, h3, span
+hgroup, nav, article, section, 
+header, footer, p, img, 
+figcaption, ul, li, a,
+ h1, h2, h3, span
  {
     margin: 0;
     padding: 0;

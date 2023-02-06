@@ -42,6 +42,11 @@ h3{
     font-size: 1.4em;
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
+    margin-top: 0.2em;
+}
+
+hr {
+    margin-top: 0;
 }
 
 footer {
@@ -53,6 +58,19 @@ footer {
 p {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    font-size: 1em;
+}
+
+a {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: white;
+}
+
+footer section {
+    color: blue;
 }
 
 .topnav {
@@ -80,3 +98,4 @@ color: black;
 .margin-em {
     margin: 1em;
 }
+
