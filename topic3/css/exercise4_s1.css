@@ -1,7 +1,7 @@
 hgroup {
     background-color: seagreen;
     margin-top: 0;
-    padding: 3vw;
+    padding: 1em;
 }
 
 /* set left and right margins for the whole page*/
@@ -13,8 +13,8 @@ body {
 }
 
 article {
-    margin-top: 3vh;
-    padding: 3vh;
+    margin-top: 1em;
+    padding: 1em;
     background-color: white;
 }
 
@@ -45,26 +45,38 @@ h3{
 }
 
 footer {
+    margin-top: 1em;
+    padding: 1em;
     background-color: seagreen;
 }
 
+p {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
 
 .topnav {
     background-color: limegreen;
     overflow: hidden;
     font-size: 1.2em;
-
 }
 
 .topnav a {
     float: left;
     color: white;
     text-align: center;
-    padding: 2vw;
+    padding: 1em;
   }
 
-  .topnav a:hover {
-    background-color: white;
-    color: black;
-  }
+.topnav a:hover {
+background-color: white;
+color: black;
+}
+
+.white {
+    color: white;
+}
   
+.margin-em {
+    margin: 1em;
+}
