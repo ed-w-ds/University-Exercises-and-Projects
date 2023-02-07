@@ -1,10 +1,11 @@
+/* single element tags */
 hgroup {
     background-color: seagreen;
     margin-top: 0;
     padding: 1em;
 }
 
-/* set left and right margins for the whole page*/
+/* set left and right margins for the whole page */
 body {
     margin-top: 0;
     margin-right: 10vw !important;
@@ -65,6 +66,7 @@ a {
     font-size: 1.2em;
 }
 
+/* descendant element tags */
 footer a {
     color: white;
 }
@@ -73,6 +75,7 @@ footer section {
     color: blue;
 }
 
+/* classes */
 .topnav {
     background-color: limegreen;
     overflow: hidden;
@@ -95,7 +98,7 @@ color: black;
     color: white;
 }
   
-.margin-em {
+.margin_em {
     margin: 1em;
 }
 
