@@ -1,0 +1,30 @@
+caption {
+    background-color: teal;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+th {
+    font-weight: bold;
+}
+
+table {
+    border: solid teal;
+    width: auto;
+}
+
+thead, tfoot {
+    background-color: gray;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 1px;
+}
+
+tr {
+    margin: 5px;
+}
+
+
