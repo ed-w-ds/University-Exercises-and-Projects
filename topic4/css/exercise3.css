@@ -3,4 +3,33 @@ caption {
     font-weight: bold;
     font-style: italic;
     text-align: center;
+    border: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th, td {
+    font-weight:bold;
+    border: 1px solid gray;
+    padding: 0.5em;
+    border-radius: 1px;
+}
+
+thead, tfoot {
+    background-color: pink !important;
+}
+
+td:empty {
+    background-color: lightgray;
+}
+
+/* td, if it's the descendant of tbody */
+tbody td {
+    text-align: center;
+}
+
+td[current-date="14"] {
+    background-color: palevioletred !important;
 }
