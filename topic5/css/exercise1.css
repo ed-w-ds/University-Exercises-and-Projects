@@ -9,11 +9,13 @@ div {
 
 article {
     border-top: lightgreen solid 1px;
+    border-width: 70%;
+    margin: auto;
     padding: 1em;
 }
 
 h1{
-    padding-top: 0.2em;
+    padding-top: .7em;
     padding-left: 0.2em;
 }
 
@@ -49,6 +51,9 @@ a {
     background-color: rgba(0, 250, 0, 0.5) !important;
 }
 
+p {
+    padding-left: 0.7em;
+}
 
 .overlayed {
     position: absolute;
