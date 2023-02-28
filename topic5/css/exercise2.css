@@ -1,5 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Quicksand&display=swap);
+
+body {
+    font-family: 'Inter', 'Quicksand', arial, 'Times New Roman';
+}
+
 header {
     background-color: forestgreen;
+    padding: 1em;
     color: white;
-    font-family: ;
+    font-family: 'Inter', 'Quicksand', arial, 'Times New Roman';
 }
+
+header li {
+    display: inline;
+    float: right;
+    text-align: center;
+    padding: .75em;
+}
+
+header a {
+    color: white;
+}
+
+header h1{
+    display: inline;
+}
+
+section {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+    text-align: center;
+    background-color: forestgreen;
+    color: white;
+    padding: 0.2em;
+}
+
+div img {
+    left: 0px;
+}
+
+footer {
+    background-color: forestgreen;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+
+/* classes */
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 1em;
+}
+
+.lists{
+    border: 10pt solid rgb(237, 235, 235);
+    background-color: white;
+}
+
+.lists li{
+    display: inline;
+    float: left;
+    }
+
+.lists ul{
+    display:flex;
+    flex-direction:column;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 1em;
+  }
+  
+  .grid-box img {
+    max-width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .grid-box p {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;    
+  }
+
+
+/* id selectors */
+#navigation-header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#research-interests {
+    background-color: rgb(222, 241, 124);
+    color: rgb(141, 121, 77);
+    padding: 0.5em;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 0.5em;
+}
+
+#navigation-page {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding: 0.5em;
+}
+
+#skills {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4; 
+    padding: 0.5em;
+}
+
+#skills li{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+}
+
+#q1st {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1; 
+}
+
+#q2nd {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#q3rd {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1; 
+}
+
+#copyright {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    padding: 0.5em;
+}
+
+#hobbies {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 0.5em;
+}
+
+#top-movies {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding: 0.5em;
+}
+
+#education {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: white;
+    padding: 0.5em;
+}
+
+#myself {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 0.5em;
+}
+
+
