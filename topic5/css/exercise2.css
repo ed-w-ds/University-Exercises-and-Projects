@@ -34,6 +34,7 @@ section {
 section a {
     color: green;
 }
+
 h1 {
     font-size: 2em;
 }
@@ -57,6 +58,15 @@ footer {
     padding: 0.5em;
 }
 
+figure {
+    margin: 0em;
+}
+
+aside {
+    float: left;
+    margin-right: 2em;
+}
+
 /* classes */
 .container {
     display: grid;
@@ -70,14 +80,18 @@ footer {
     background-color: white;
 }
 
-.lists li{
-    display: inline;
-    float: left;
-    }
+.lists figure li{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    float:left;
+    text-align: center;
+    padding: 0.2em;
+    padding-top: 0.5em;
+}
 
-.lists ul{
-    display:flex;
-    flex-direction:column;
+.lists figure li p {
+    margin-top:0.75em;
 }
 
 .grid-box {
@@ -102,6 +116,14 @@ footer {
     grid-row-end: 2;    
   }
 
+  .min_skills img{
+    max-width: 75%;
+  }
+
+  .min_skills p {
+    text-align: left;
+    
+  }
 
 /* id selectors */
 #navigation-header {
@@ -180,6 +202,7 @@ footer {
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 0.5em;
+    margin-bottom: 0em;
 }
 
 #top-movies {
