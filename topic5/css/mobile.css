@@ -92,36 +92,14 @@ aside {
     margin-top:0.75em;
 }
 
-.grid-box {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 1em;
-  }
-  
-  .grid-box img {
-    max-width: 100%;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-
-  .grid-box p {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;    
-  }
-
-  .min_skills img{
+.min_skills img{
     max-width: 75%;
-  }
+}
 
-  .min_skills p {
+.min_skills p {
     text-align: left;
-    
-  }
+
+}
 
 /* id selectors */
 #navigation-header {
@@ -134,28 +112,34 @@ aside {
 #research-interests {
     background-color: rgb(222, 241, 124);
     color: rgb(141, 121, 77);
-    padding: 0.5em;
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
     padding: 0.5em;
     font-family:'Quicksand', arial, 'Times New Roman';
+}
+
+#research-interests h3 {
+    background-color:  rgb(222, 241, 124);
+    color: rgb(141, 121, 77);
+    text-align: left;
+    padding: 0em;
 }
 
 #navigation-page {
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
     padding: 0.5em;
 }
 
 #skills {
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 6;
-    grid-row-end: 6; 
+    grid-row-start: 7;
+    grid-row-end: 7; 
     padding: 0.5em;
 }
 
@@ -189,41 +173,54 @@ aside {
 #copyright {
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 9;
-    grid-row-end: 9;
+    grid-row-start: 10;
+    grid-row-end: 10;
     padding: 0.5em;
 }
 
 #hobbies {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 8; */
     padding: 0.5em;
     margin-bottom: 0em;
+    display: flex;
+    flex-shrink: 2;
 }
 
 #top-movies {
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 8;
-    grid-row-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 9;
     padding: 0.5em;
 }
 
 #education {
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 7;
-    grid-row-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
     background-color: white;
     padding: 0.5em;
 }
 
-#myself {
+#myself-text {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 0.5em;
+}
+
+#myself-image {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#myself-image img {
+    max-width: 95vw;
 }
