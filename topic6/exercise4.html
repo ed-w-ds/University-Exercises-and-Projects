@@ -3,11 +3,40 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width, initial-scale=1.0">
-        <title>Exercise4</title>
+        <title>Exercise 4</title>
     </head>
 
     <body>
 
-
+        <p></p>
 
     </body>
+
+    <script>
+
+        nums = [1, 2, 3, 4, 5, 6]
+        retAvgMed(nums);
+
+        function retAvgMed(nums) {
+            var arrayLength = nums.length;
+            var x = 0, y = 0;
+            var median = 0;
+            
+            for (var i = 0; i < arrayLength; i++){
+                y += nums[x];
+                if ((arrayLength % 2) == 0) {
+                    median = (nums[(arrayLength/2) - 1] + nums[(arrayLength/2)]) / 2;
+                }
+                else {
+                    median = nums[(arrayLength/2) - 1/2];
+                }
+                x++;
+            }
+            var avg = y / arrayLength;
+            window.alert(avg + " this is the average");
+            window.alert(median + " this is the median");
+        }
+
+
+
+    </script>
