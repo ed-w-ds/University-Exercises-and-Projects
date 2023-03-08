@@ -7,5 +7,15 @@
     </head>
 
     <script>
-        window.prompt('enter a number');
+        let x = 0;
+        const myArray = [];
+        while (x < 5) {
+            var y = window.prompt('enter a number');
+            y = parseInt(y);
+            myArray[x] = y;
+            x++;
+        }
+        if (x >= 4) {
+            window.alert(Math.max(...myArray));
+        }
     </script>
