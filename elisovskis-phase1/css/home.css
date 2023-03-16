@@ -2,5 +2,141 @@
 @import "colour-scheme.css";
 
 body {
-    font-family: 'Comic Neue';
+    font-family: 'Noto Sans', 'Arial', 'Inter';
+    margin: 0;
+}
+
+
+header {
+    color: white;
+    height: 3vh;
+    padding: 1em;
+    /* position: fixed; */
+}
+
+header li {
+    display: inline;
+    text-align: center; 
+}
+
+
+
+header a {
+    color: white;
+}
+
+header h1{
+    display: inline;
+}
+
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+
+
+/* classes */
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(6, auto);
+}
+
+.nav-right {
+    display: inline;
+    float: right;
+    margin: 0px !important;
+    text-align: center; 
+}
+
+
+/* pseudo class selectors (w3schools) */
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: green;
+}
+
+
+
+/* id selectors */
+#navigation-header li{
+    margin: 0.5em;
+}
+
+#aboutme {
+    background-color: aqua;
+    height: 93vh;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#aboutme h1 {
+    font-family: 'Roboto Condensed';
+}
+
+#skills {
+    background-color: red;
+    height: 93vh;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#education {
+    background-color: green;
+    height: 93vh;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3; 
+}
+
+#experience {
+    background-color: gray;
+    height: 93vh;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4; 
+}
+
+#contact {
+    background-color: sienna;
+    height: 93vh;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5; 
+}
+
+#copyright {
+    background-color: yellow;
+    height: 93vh;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 6; 
 }
