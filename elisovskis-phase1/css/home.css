@@ -10,7 +10,7 @@ body {
 header {
     color: white;
     height: 3vh;
-    padding: 1em;
+    padding: 1.5vh;
     /* position: fixed; */
 }
 
@@ -18,8 +18,6 @@ header li {
     display: inline;
     text-align: center; 
 }
-
-
 
 header a {
     color: white;
@@ -51,6 +49,30 @@ h3 {
     grid-template-rows: repeat(6, auto);
 }
 
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1em;
+}
+
+.grid-box img {
+    max-width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 10vh;
+}
+
+.heading-text p {
+    font-size: 1.5em;
+}
+
+.grid-box .heading-text {
+    /* margin: 5vw; */
+    margin: 10vw;
+}
+
 .nav-right {
     display: inline;
     float: right;
@@ -59,20 +81,22 @@ h3 {
 }
 
 
+
+
 /* pseudo class selectors (w3schools) */
-a:link {
+header a:link {
     color: white;
 }
 
-a:visited {
+header a:visited {
     color: white;
 }
 
-a:hover {
+header a:hover {
     color: green;
 }
 
-a:active {
+header a:active {
     color: green;
 }
 
@@ -84,8 +108,7 @@ a:active {
 }
 
 #aboutme {
-    background-color: aqua;
-    height: 93vh;
+    height: 94vh;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
@@ -94,6 +117,18 @@ a:active {
 
 #aboutme h1 {
     font-family: 'Roboto Condensed';
+}
+
+#myself-text {
+    color: rgb(79, 79, 79);
+}
+
+#myself-text a {
+    text-decoration: underline !important;
+}
+
+#myself-text a:visited {
+    color: rgb(79, 79, 79);
 }
 
 #skills {
