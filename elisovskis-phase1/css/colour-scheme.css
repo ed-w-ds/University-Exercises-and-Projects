@@ -6,6 +6,10 @@
     background-color: rgba(223, 227, 238, 1);
 }
 
+.colour3 {
+    background-color: rgba(80, 99, 74, .5);
+}
+
 .colour-heading {
-    color: rgb(55, 109, 209);
+    color: rgba(55, 109, 209, 1);
 }

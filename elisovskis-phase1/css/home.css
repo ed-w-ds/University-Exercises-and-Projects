@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+aside {
+    float: left;
+    margin-right: 2em;
+    font-weight: bold;
+}
 
 header {
     color: white;
@@ -27,7 +32,6 @@ header h1{
     display: inline;
 }
 
-
 h1 {
     font-size: 4em;
 }
@@ -38,6 +42,10 @@ h2 {
 
 h3 {
     font-size: 1.3em;
+}
+
+footer {
+    padding: 2vh;
 }
 
 
@@ -168,10 +176,10 @@ header a:active {
 }
 
 #copyright {
-    background-color: yellow;
-    height: 93vh;
+    height: 3vh;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 6;
     grid-row-end: 6; 
+    text-align: center;
 }
