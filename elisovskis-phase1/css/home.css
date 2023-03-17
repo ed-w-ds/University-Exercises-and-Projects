@@ -4,11 +4,11 @@
 body {
     font-family: 'Noto Sans', 'Arial', 'Inter';
     margin: 0;
+    background-color: gray;
 }
 
 aside {
     float: left;
-    margin-right: 2em;
     font-weight: bold;
 }
 
@@ -37,18 +37,30 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 2vh;
 }
 
 h3 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: white;
 }
 
 footer {
     padding: 2vh;
 }
 
+p, aside, ul {
+    color: white;
+}
 
+ul {
+    list-style-type: disc !important;
+}
 
 /* classes */
 .container {
@@ -87,8 +99,6 @@ footer {
     margin: 0px !important;
     text-align: center; 
 }
-
-
 
 
 /* pseudo class selectors (w3schools) */
@@ -140,25 +150,24 @@ header a:active {
 }
 
 #skills {
-    background-color: red;
     height: 93vh;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 2;
+    margin: 0% 12vw 0%;
 }
 
 #education {
-    background-color: green;
     height: 93vh;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 3; 
+    margin: 0% 12vw 0%;
 }
 
 #experience {
-    background-color: gray;
     height: 93vh;
     grid-column-start: 1;
     grid-column-end: 7;
@@ -167,7 +176,6 @@ header a:active {
 }
 
 #contact {
-    background-color: sienna;
     height: 93vh;
     grid-column-start: 1;
     grid-column-end: 7;
