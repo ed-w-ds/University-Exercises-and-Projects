@@ -4,7 +4,11 @@
 body {
     font-family: 'Noto Sans', 'Arial', 'Inter';
     margin: 0;
-    background-color: gray;
+    /* background-color: gray; */
+}
+
+body img {
+    max-width: 100%;
 }
 
 aside {
@@ -53,6 +57,7 @@ h3 {
 
 h4 {
     font-size: 1.3em;
+    color: white;
 }
 
 footer {
@@ -68,6 +73,24 @@ ul {
     margin-bottom: 1em;
 }
 
+button {
+  display: inline-block;
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(85,107,47, 0.8); /* Sage green color */
+  border-radius: 0.2em;
+  border: none;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(189, 189, 189, 0.8); 
+}
+
+
 /* classes */
 .container {
     display: grid;
@@ -78,7 +101,6 @@ ul {
 .grid-box {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-gap: 1em;
 }
 
 .grid-box img {
@@ -87,7 +109,9 @@ ul {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-top: 10vh;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    height: 50vh;
 }
 
 .heading-text p {
@@ -95,9 +119,49 @@ ul {
 }
 
 .grid-box .heading-text {
-    /* margin: 5vw; */
     margin: 10vw;
 }
+
+.grid-box-contact {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1em;
+}
+
+.grid-box-contact li {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-box-contact p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-box-links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1em;
+    margin-top: 0.5em;
+}
+
+.grid-box-links #email-id {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* .grid-box-links #email-id {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+} */
 
 .nav-right {
     display: inline;
@@ -111,21 +175,20 @@ ul {
         display: flex;
         flex-direction: column;
         gap: 2vh;
-        margin: 0 12vw;
+        padding: 0 12vw;
     }
 
-    .container-flex > section {
+    .container-flex section {
         display: flex;
         flex-direction: column;
         gap: 1em;
     }
 
-    .container-flex > section > aside {
+    .container-flex section aside {
         font-weight: bold;
         width: 30%;
         margin-right: 2em;
     }
-
 
 
 /* pseudo class selectors (w3schools) */
@@ -138,13 +201,13 @@ header a:visited {
 }
 
 header a:hover {
-    color: green;
+    color: rgb(71, 71, 71);
+    transition: all 0.2s ease-in-out;
 }
 
 header a:active {
-    color: green;
+    color: rgb(71, 71, 71);
 }
-
 
 
 /* id selectors */
@@ -177,49 +240,72 @@ header a:active {
 }
 
 #skills {
+    background: gray;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 2;
-    margin: 0% 12vw 0%;
-    /* text-align: center; */
+    padding: 0% 12vw;
 }
 
 #education {
-    height: 93vh;
+    background: rgba(80, 99, 74, .5);
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 3; 
-    margin: 0% 12vw 0%;
+    padding: 0% 12vw 2vh;
 }
 
 #experience {
-    height: 93vh;
+    background: gray;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 4; 
+    padding: 0% 12vw 2vh;
 }
 
 #contact {
-    height: 93vh;
+    background-color: rgba(128, 128, 128, 1);
+    background-image: url("paper.gif");
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 5;
-    grid-row-end: 5; 
+    grid-row-end: 5;
+}
+
+#contact article {
+    margin: 5vh 20vw;
+    background-color: rgb(49, 63, 92);
+    text-align: left !important;
+    text-decoration: none;
+    color: white;
+    width: 58vw;
 }
 
 #contact ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: white; 
+}
+
+#contact a {
+    color: white;
+    text-decoration: underline;
 }
 
 #contact img {
     max-width: 2em;
+    margin-right: 1em;
 }
 
 #contact ul a {
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 #copyright {
