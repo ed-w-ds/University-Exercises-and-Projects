@@ -51,6 +51,10 @@ h3 {
     color: white;
 }
 
+h4 {
+    font-size: 1.3em;
+}
+
 footer {
     padding: 2vh;
 }
@@ -173,12 +177,12 @@ header a:active {
 }
 
 #skills {
-    height: 93vh;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 2;
     margin: 0% 12vw 0%;
+    /* text-align: center; */
 }
 
 #education {
@@ -204,6 +208,18 @@ header a:active {
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 5; 
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+#contact img {
+    max-width: 2em;
+}
+
+#contact ul a {
+    margin-bottom: 1em;
 }
 
 #copyright {
