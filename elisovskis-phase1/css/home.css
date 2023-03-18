@@ -8,8 +8,9 @@ body {
 }
 
 aside {
-    float: left;
+    /* float: left; */
     font-weight: bold;
+    margin-right: 5vw;
 }
 
 header {
@@ -59,7 +60,8 @@ p, aside, ul {
 }
 
 ul {
-    list-style-type: disc !important;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
 }
 
 /* classes */
@@ -99,6 +101,27 @@ ul {
     margin: 0px !important;
     text-align: center; 
 }
+    /* Flexbox positioning */
+
+    .container-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin: 0 12vw;
+    }
+
+    .container-flex > section {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .container-flex > section > aside {
+        font-weight: bold;
+        width: 30%;
+        margin-right: 2em;
+    }
+
 
 
 /* pseudo class selectors (w3schools) */
