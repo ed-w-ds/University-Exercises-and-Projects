@@ -43,6 +43,8 @@ legend {
     margin-bottom: 1em;
 }
 
+
+
 /* classes */
 .container {
     display: flex;
@@ -79,6 +81,27 @@ legend {
     border-radius: 5px;
 }
 
+.submit-reset {
+    text-align: center;
+    color: white;
+}
+
+.submit-reset input {
+    margin: 1em;
+    padding: 1em 2em !important;
+    font-weight: bold;
+    background: rgba(85,107,47, 1);
+    border-radius: 0.2em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+}
+
+.submit-reset input:hover {
+    background-color: rgba(189, 189, 189, 0.8); 
+    
+}
+
 /* pseudo class selectors (w3schools) */
 header a:link {
     color: white;
@@ -108,4 +131,5 @@ header a:active {
 
 #submit-button:hover {
     background-color: rgba(189, 189, 189, 0.8); 
+    transition: all 0.2s ease-in-out;
 }

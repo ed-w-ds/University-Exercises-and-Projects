@@ -127,4 +127,5 @@ header a:active {
 
 #submit-button:hover {
     background-color: rgba(189, 189, 189, 0.8); 
+    transition: all 0.2s ease-in-out;
 }
