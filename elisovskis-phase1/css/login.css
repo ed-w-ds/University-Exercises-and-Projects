@@ -44,16 +44,18 @@ legend {
 }
 
 button {
-    margin: 0.5em;
-    padding: 0.5em;
+    margin: 1em;
+    padding: 1em 2em !important;
+    font-weight: bold;
     background: rgba(85,107,47, 1);
     border-radius: 0.2em;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
     border: none;
+    color: white;
     
 }
 
-button input {
+/* button input {
     display: inline-block;
     font-size: 1em;
     font-weight: bold;
@@ -61,7 +63,7 @@ button input {
     background: rgba(85,107,47, 1);
     border: none;
     transition: all 0.2s ease-in-out;
-  }
+  } */
 
 
   
