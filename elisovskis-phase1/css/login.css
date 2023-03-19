@@ -63,9 +63,7 @@ button input {
     transition: all 0.2s ease-in-out;
   }
 
-button:hover, button input:hover {
-    background-color: rgba(189, 189, 189, 0.8); 
-}
+
   
 
 /* classes */
@@ -87,6 +85,15 @@ button:hover, button input:hover {
 
 .submit {
     text-align: center;
+    margin-top: 1em;
+}
+
+.email-password input {
+    width: 20vw;
+    height: 2em;
+    border: none;
+    margin: 0.5em;
+    text-indent: 0.5em;
 }
 
 /* pseudo class selectors (w3schools) */
@@ -112,3 +119,10 @@ header a:active {
     margin: 0.5em;
 }
 
+#submit-button {
+    padding: 0.5em 1em;
+}
+
+#submit-button:hover {
+    background-color: rgba(189, 189, 189, 0.8); 
+}
