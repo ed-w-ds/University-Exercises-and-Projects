@@ -35,8 +35,59 @@ ul {
     margin-bottom: 1em;
 }
 
-/* classes */
+legend {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
 
+button {
+    margin: 0.5em;
+    padding: 0.5em;
+    background: rgba(85,107,47, 0.8);
+    border-radius: 0.2em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border: none;
+    
+}
+
+button input {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: rgba(85,107,47, 0.8);
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+button:hover, button input:hover {
+    background-color: rgba(189, 189, 189, 0.8); 
+}
+  
+
+/* classes */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+  }
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 10vw;
+    border: 3px solid rgba(223, 227, 238, 1);
+    border-radius: 5px;
+}
+
+.submit {
+    text-align: center;
+}
 
 /* pseudo class selectors (w3schools) */
 header a:link {
@@ -60,3 +111,4 @@ header a:active {
 #navigation-header li{
     margin: 0.5em;
 }
+

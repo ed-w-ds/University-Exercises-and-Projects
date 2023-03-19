@@ -3,7 +3,7 @@ header, footer, p, img,
 figcaption, ul, li, a,
  h1, h2, h3, span, caption, thead, tfoot,
  tbody, tr, th, td, table, div,
- fieldset, legend
+ fieldset, legend, button
  {
     margin: 0;
     padding: 0;
