@@ -4,7 +4,6 @@
 body {
     font-family: 'Noto Sans', 'Arial', 'Inter';
     margin: 0;
-    /* background-color: gray; */
 }
 
 body img {
@@ -21,7 +20,6 @@ header {
     color: white;
     height: 3vh;
     padding: 1.5vh;
-    /* position: fixed; */
 }
 
 header li {
@@ -35,6 +33,10 @@ header a {
 
 header h1{
     display: inline;
+}
+
+hgroup {
+    margin-top: 1em;
 }
 
 h1 {
@@ -95,7 +97,6 @@ button:hover {
 .container {
     display: grid;
     grid-template-columns: repeat(6, auto);
-    grid-template-rows: repeat(6, auto);
 }
 
 .grid-box {
@@ -155,13 +156,6 @@ button:hover {
     grid-row-start: 1;
     grid-row-end: 2;
 }
-
-/* .grid-box-links #email-id {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-} */
 
 .nav-right {
     display: inline;
@@ -249,7 +243,8 @@ header a:active {
 }
 
 #education {
-    background: rgba(80, 99, 74, .5);
+    /* background: rgba(80, 99, 74, .5); */
+    background: rgb(155, 155, 155);
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 3;
