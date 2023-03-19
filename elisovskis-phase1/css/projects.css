@@ -10,11 +10,6 @@ body img {
     max-width: 100%;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-}
-
 header {
     color: white;
     height: 3vh;
@@ -71,6 +66,15 @@ ul {
     display: grid;
     grid-template-columns: repeat(1, auto);
 }
+
+.title {
+    margin: 1.5em;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+} */
 
 .projects-container {
     display: grid;
