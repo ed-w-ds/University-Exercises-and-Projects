@@ -1,2 +1,62 @@
 @import "fonts.css";
 @import "colour-scheme.css";
+
+
+body {
+    font-family: 'Noto Sans', 'Arial', 'Inter';
+    margin: 0;
+}
+
+body img {
+    max-width: 100%;
+}
+
+header {
+    color: white;
+    height: 3vh;
+    padding: 1.5vh;
+}
+
+header li {
+    display: inline;
+    text-align: center; 
+}
+
+header a {
+    color: white;
+}
+
+header h1{
+    display: inline;
+}
+
+ul {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* classes */
+
+
+/* pseudo class selectors (w3schools) */
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: rgb(71, 71, 71);
+    transition: all 0.2s ease-in-out;
+}
+
+header a:active {
+    color: rgb(71, 71, 71);
+}
+
+/* id selectors */
+#navigation-header li{
+    margin: 0.5em;
+}
