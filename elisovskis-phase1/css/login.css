@@ -55,10 +55,6 @@ button {
     
 }
 
-textarea {
-    resize: none;
-}
-
 /* button input {
     display: inline-block;
     font-size: 1em;
