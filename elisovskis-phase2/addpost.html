@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/addpost.css" type="text/css">
+        <title>addpost - Blog</title>
+    </head>
+
+    <body class="colour1">
+        <header id="navigation-header" class="colour1">
+            <nav>
+                <ul style="text-align: center;">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html#skills">Skills</a></li>
+                    <li><a href="home.html#education">Education</a></li>
+                    <li><a href="home.html#experience">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="login.html">Blog</a></li>
+                    <li><a href="home.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <form method="POST" action="" class="blog-form">
+                <fieldset>
+                    <legend>Add a blog post</legend>
+
+                        <div>
+                            <p class="title">
+                                <input type="text" name="title" required placeholder="Title" autofocus>
+                            </p>
+                            <p class="blog-post">
+                                <textarea type="text" name="blog-post" required placeholder="Start your blog post"></textarea>
+                            </p>
+                        </div>
+
+                    <div class="submit-reset">
+                        <input type="submit" value="Submit"></button>
+                        <input type="reset">
+                    </div>
+
+                </fieldset>
+            
+            </form>
+        </div>
+
+    </body>
+
+</html>
