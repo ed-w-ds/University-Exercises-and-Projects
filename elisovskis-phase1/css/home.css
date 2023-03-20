@@ -157,10 +157,6 @@ button:hover {
     grid-row-end: 2;
 }
 
-.grid-box-links a {
-    text-align: center;
-}
-
 .nav-right {
     display: inline;
     float: right;
@@ -199,12 +195,12 @@ header a:visited {
 }
 
 header a:hover {
-    color: rgb(71, 71, 71);
+    color: rgb(46, 46, 46);
     transition: all 0.2s ease-in-out;
 }
 
 header a:active {
-    color: rgb(71, 71, 71);
+    color: rgb(46, 46, 46);
 }
 
 
@@ -238,7 +234,7 @@ header a:active {
 }
 
 #skills {
-    background: gray;
+    background: rgb(80, 80, 80);
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 2;
@@ -248,7 +244,7 @@ header a:active {
 
 #education {
     /* background: rgba(80, 99, 74, .5); */
-    background: rgb(155, 155, 155);
+    background: rgb(140, 139, 139);
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 3;
@@ -257,7 +253,7 @@ header a:active {
 }
 
 #experience {
-    background: gray;
+    background: rgb(80, 80, 80);
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 4;
@@ -266,7 +262,7 @@ header a:active {
 }
 
 #contact {
-    background-color: rgba(128, 128, 128, 1);
+    background-color: rgba(80,80,80, 1);
     background-image: url("paper.gif");
     grid-column-start: 1;
     grid-column-end: 7;
@@ -276,7 +272,7 @@ header a:active {
 
 #contact article {
     margin: 5vh 20vw;
-    background-color: rgb(49, 63, 92);
+    background-color: rgb(55, 67, 92);
     text-align: left !important;
     text-decoration: none;
     color: white;
@@ -300,11 +296,6 @@ header a:active {
 #contact img {
     max-width: 2em;
     margin-right: 1em;
-}
-
-#contact ul a {
-    margin-bottom: 1em;
-    margin-top: 1em;
 }
 
 #copyright {

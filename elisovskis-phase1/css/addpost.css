@@ -43,6 +43,10 @@ legend {
     margin-bottom: 1em;
 }
 
+textarea {
+    resize: none;
+}
+
 
 
 /* classes */
@@ -112,12 +116,12 @@ header a:visited {
 }
 
 header a:hover {
-    color: rgb(71, 71, 71);
+    color: rgb(46, 46, 46);
     transition: all 0.2s ease-in-out;
 }
 
 header a:active {
-    color: rgb(71, 71, 71);
+    color: rgb(46, 46, 46);
 }
 
 /* id selectors */
