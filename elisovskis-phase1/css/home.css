@@ -157,6 +157,10 @@ button:hover {
     grid-row-end: 2;
 }
 
+.grid-box-links a {
+    text-align: center;
+}
+
 .nav-right {
     display: inline;
     float: right;

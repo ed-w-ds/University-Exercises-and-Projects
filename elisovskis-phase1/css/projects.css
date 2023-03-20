@@ -30,55 +30,52 @@ header h1{
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 h2 {
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     margin: 2vh;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 
 h4 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: white;
 }
 
 footer {
     padding: 2vh;
     color: white;
+    position: relative;
 }
 
 ul {
-    margin-left: 1.5em;
-    margin-bottom: 1em;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 /* classes */
 .container {
     display: grid;
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(1, auto); 
 }
 
 .title {
-    margin: 1.5em;
+    margin: 1.5rem;
 }
-
-/* .container {
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-} */
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    /* grid-tremplate-columns: repeat(3, auto); */
+    grid-template-columns: repeat(3, minmax(32vw, 1fr));
     max-width: 100%;
 }
 
@@ -111,7 +108,7 @@ header a:active {
 
 /* id selectors */
 #navigation-header li{
-    margin: 0.5em;
+    margin: 0.5rem;
 }
 
 #projects {
@@ -153,7 +150,7 @@ header a:active {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-end: 3;
     width: 33vw;
 }
 
@@ -165,8 +162,9 @@ header a:active {
     height: 3vh;
     grid-column-start: 1;
     grid-column-end: 7;
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-row-end: 4; 
-    margin-top: 7em;
+    margin-top: 7rem;
+    margin-bottom: 0px;
     text-align: center;
 }
