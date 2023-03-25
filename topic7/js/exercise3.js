@@ -1,4 +1,4 @@
-var images = ["greenwich-park.png", 
+var images = ["greenwich_park.png", 
 "kew_gardens.png",
 "QMUL.png",
 "tate_britain.png"]
@@ -14,24 +14,18 @@ nextButton.addEventListener('click', nextFx);
 
 function prevFx() { 
     if (currentPage>-1) {
-        if (currentPage==0) {
-            gallery.src = "./images/donut1.png"
-        }
-        else {
-            gallery.src = "./images/"+images[currentPage-1];
-        }
+            currentPage--;
+            gallery.src = "./images/" + images[currentPage];
+    }
+    if (currentPage==-1) {
+        gallery.src="./images/donut1.png"
     }
 }
 function nextFx() { 
-    if (currentPage<images.length-1) {
-        if (currentPage==images.length-1) {
-            gallery.src = "./images/" + images[images.length-1];
+        if (currentPage!=images.length-1) {
+            currentPage++;
+            gallery.src = "./images/" + images[currentPage];
         }
-        else {
-            gallery.src = "./images/" + images[currentPage+1];
-        }
-        
-    }
 }
 
 
