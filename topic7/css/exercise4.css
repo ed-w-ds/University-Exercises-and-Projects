@@ -1,0 +1,43 @@
+fieldset {
+    background-color: rgb(159, 227, 164);
+    border: 2px solid black;
+    margin: 0em 0.5em 0.5em 0.5em;
+    padding: 0.5em;
+}
+
+fieldset fieldset {
+    border: 2px solid green;
+}
+
+legend {
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.2em;
+    width: 100%;
+}
+
+button {
+    background-color: green;
+    border-radius: 5px;
+    margin: 1.5em 1em 0px 1em;
+}
+
+button input{
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+div {
+    background-color: white;
+    padding: 1em;
+    margin: 0px 0.5em 0px 0.5em;
+    text-align: center;
+}
+
+div p {
+    text-align: left !important;
+}

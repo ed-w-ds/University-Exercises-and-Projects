@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/exercise4.css" type="text/css">
+        <script type="text/javascript" src="js/exercise4.js" defer></script>
+        <title>Topic 7 - Exercise 4</title>
+    </head>
+
+    <body>
+        <form method="POST" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+            <fieldset>
+                <legend>Shirt Order Form</legend>
+                <fieldset>
+                    <label>Shirt Size</label>
+                    <p>
+                        <select name="shirt-size">
+                            <datalist>
+                                <option value="">Choose size</option>
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </datalist>
+                        </select>
+                    </p>
+
+                    <label>Sleeves</label>
+                    <p>
+                        <input type="radio" name="Sleeves" value="Short" checked>Short<br>
+                        <input type="radio" name="Sleeves" value="Long">Long<br>
+                    </p>
+
+                    <label>Choose Shirt Colour</label>
+                    <p>
+                        <input type="color" name="colorChoice" value="#000000">
+                    </p>
+
+                    <label>Quantity</label>
+                    <p>
+                        <input type="number" min="1" max="10" name="Quantity">
+                    </p>
+                    
+                    <label>Date requested</label>
+                    <p>
+                        <input type="date" name="Date">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+
+                    <label>Name</label>
+                    <p>
+                        <input type="text" name="Name">
+                    </p>
+
+                    <label>Email address</label>
+                    <p>
+                        <input type="email" name="Email">
+                    </p>
+
+                    <label>Telephone</label>
+                    <p>
+                        <input type="tel" name="Telephone" pattern="[0-9]{2}[ -][0-9]{3}[ -][0-9]{3}[ -][0-9]{4}"> Example: 44-207-882-1234
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <label>Address</label>
+                    <p>
+                        <input type="text" name="Address">
+                    </p>
+
+                    <label>City</label>
+                    <p>
+                        <input type="text" name="City" list="cities">
+                        <datalist id="cities">
+                            <optgroup>
+                                <option value="London">London</option>
+                                <option value="Amsterdam">Amsterdam</option>
+                                <option value="Bruges">Bruges</option>
+                                <option value="Prague">Prague</option>
+                            </optgroup>
+                        </datalist>
+                    </p>
+
+                    <label>Postcode</label>
+                    <p>
+                        <input type="text" name="Postcode">
+                    </p>
+
+                </fieldset>
+
+                <div>
+                    <p>Please keep me informed about future shirt designs <input type="checkbox" name="accept" value="on"></p>
+                    <button class="button1"><input type="submit" value="Submit" id="submit"></button>
+                    <button><input type="reset"></button>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+
+</html>
