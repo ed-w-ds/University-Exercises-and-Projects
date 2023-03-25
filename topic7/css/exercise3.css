@@ -1,11 +1,19 @@
 header {
-
+    text-align: center;
 }
 
 article {
+    
+}
 
+article img {
+    max-width: 100%;
 }
 
 button {
-    
+    text-align: center;
+}
+
+div {
+    text-align: center;
 }
