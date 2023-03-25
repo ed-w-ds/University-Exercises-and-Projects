@@ -8,22 +8,39 @@
         <title>Topic 7 - Exercise 1</title>
     </head>
 
-    <script>
 
+
+    <body>
+
+        <header>
+            <h1>sorted arrvay - names</h1>
+            <p></p>
+            <h2>sorted array after insertion</h2>
+            <p id="names2"></p>
+        </header>
+
+    </body>
+
+    <script>
         names = ["John", "Gabriel", "Joe", "Richard", "Max", "Winston", "Leo", "Sam", "Murray", "Humphrey"];  
         names.sort();
+
         let newDiv = document.createElement('div');
         newDiv.id = "names1";
         let newDivText = document.createTextNode(names);
         newDiv.appendChild(newDivText);
-        names.insertBefore(newDiv);
+        let container = document.querySelector('header');
+        let header = document.querySelector('header h1');
+        let p = document.querySelector('header p');
+        container.insertBefore(newDiv, p);
+        var y = window.prompt('enter a name');
+        names.push(y);
+        names.sort();
+        let updatedNames = document.createTextNode(names);
+        let names2 = document.getElementById("names2");
+        names2.appendChild(updatedNames);
+
+
     </script>
 
-    <body>
-
-
-
-
-    
-    </body>
 </html>
