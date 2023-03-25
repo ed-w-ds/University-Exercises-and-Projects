@@ -18,15 +18,15 @@
                         <!-- <label>Email address</label> -->
                         <div class="email-password">
                             <p>
-                                <input id="email" type="email" name="Email" required placeholder="email" autofocus>
+                                <input id="email" name="Email" placeholder="email" autofocus>
                             </p>
                             <!-- <label>Password</label> -->
                             <p>
-                                <input id="password" type="password" name="Email" required placeholder="password">
+                                <input id="password" name="Email" placeholder="password">
                             </p>
                         </div>
                         <div class="submit">
-                            <button id="submit-button" type="submit" value="Login">Login</button>
+                            <button id="submit-button">Login</button>
                         </div>
                 </fieldset>
             </form>
@@ -35,6 +35,21 @@
     </body>
 
     <script>
+
+        let emailVerification = document.getElementById("email");
+        let passwordVerification = document.getElementById("password");
+        let submitButton = document.getElementById("submit-button");
+        emailVerification.required; // same as document.getElementById("email").required;
+        passwordVerification.required;
+        submitButton.addEventListener("click", verify);
+        function verify() {
+            if (emailVerification.value != passwordVerification.value) {
+                window.alert("not authorised");
+            }
+            else {
+                window.alert("AUTHORISED");
+            }
+        }
 
 
 
