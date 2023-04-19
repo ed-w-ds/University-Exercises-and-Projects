@@ -1,0 +1,32 @@
+caption {
+    text-align: center;
+    background-color: lightgray;
+}
+
+thead {
+    text-align: center;
+    background-color: lightblue;
+}
+
+tfoot {
+    text-align: center;
+    background-color: lightblue;
+}
+
+table td, th {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: lightgray;
+
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+table {
+    border: 1px solid gray;
+}
+
+#col {
+    background-color: lightblue;
+    padding: 0;
+}

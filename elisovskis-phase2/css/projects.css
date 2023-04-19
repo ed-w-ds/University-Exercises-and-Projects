@@ -52,7 +52,7 @@ h4 {
 }
 
 footer {
-    padding: 2vh;
+    padding: 1em;
     color: white;
     position: relative;
 }
@@ -159,7 +159,7 @@ header a:active {
 }
 
 #copyright {
-    height: 3vh;
+    height: auto;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 3;

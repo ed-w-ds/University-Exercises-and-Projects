@@ -63,7 +63,7 @@ h4 {
 }
 
 footer {
-    padding: 2vh;
+    padding: 1em;
 }
 
 p, aside, ul {
@@ -163,6 +163,7 @@ button:hover {
     margin: 0px !important;
     text-align: center; 
 }
+
     /* Flexbox positioning */
 
     .container-flex {
@@ -227,6 +228,7 @@ header a:active {
 
 #myself-text a {
     text-decoration: underline !important;
+    color: rgb(79, 79, 79);
 }
 
 #myself-text a:visited {
@@ -299,7 +301,7 @@ header a:active {
 }
 
 #copyright {
-    height: 3vh;
+    height: auto;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 6;

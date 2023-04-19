@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/exercise6.css" type="text/css">
+        <script src="exercise6.js"></script>
+        <title>Topic 9 - Exercise 6</title>
+    </head>
+
+    <body>
+
+        <div class="container"> 
+            <form method="POST" action="exercise6.php" class="login-form" onsubmit="verifyPassword()">
+                <fieldset>
+                    <legend>Login</legend>
+                        <!-- <label>Email address</label> -->
+                        <div class="email-password">
+                            <p>
+                                <input type="name" name="Name" required placeholder="name" autofocus>
+                            </p>
+                            <p>
+                                <input type="surname" name="Surname" required placeholder="surname" autofocus>
+                            </p>
+                            <p>
+                                <input type="email" name="Email" required placeholder="email" autofocus>
+                            </p>
+                            <!-- <label>Password</label> -->
+                            <p>
+                                <input type="password" name="Password" placeholder="password">
+                            </p>
+                            <p>
+                                <input type="password" name="Password_Confirmation" placeholder="confirm password">
+                            </p>
+                            <p id="message"></p>
+                        </div>
+                        <div class="submit">
+                            <button id="submit-button" type="submit" value="Login">Login</button>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+        
+    </body>
+
+</html>

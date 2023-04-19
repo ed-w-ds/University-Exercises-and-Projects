@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="css\reset.css" type="text/css"> 
+        <link rel="stylesheet" href="css\exercise5.css" type="text/css">
+        <title>Topic 9 - Exercise 5</title>
+    </head>
+
+    <body>
+        <form method="POST" action="exercise5.php">
+            <form>
+                <legend>Shirt Order Form</legend>
+                <fieldset>
+                    <label for="name">Name:</label>
+		            <input type="text" name="name" id="name" required><br>
+
+                    <input type="checkbox" id="four_regular" name="bulbs[]">
+                    <label for="four_regular"> Four 100-watt light bulbs for £2.39 </label><br>
+                    <input type="checkbox" id="eight_regular" name="bulbs[]">
+                    <label for="eight_regular"> Eight 100-watt light bulbs for £4.29 </label><br>
+                    <input type="checkbox" id="four_ll" name="bulbs[]">
+                    <label for="four_ll"> Four 100-watt long-life light bulbs for £3.95 </label><br>
+                    <input type="checkbox" id="eight_ll" name="bulbs[]">
+                    <label for="eight_ll"> Eight 100-watt long-life light bulbs for £7.49 </label><br>
+                    <input type="text" id="packs" name="bulb_packs">
+                    <label for="packs">Type in the amount of packs desired - £10.42 each</label>
+                    <p>
+                        <input type="radio" name="Payment" value="Visa">Visa<br>
+                        <input type="radio" name="Payment" value="Master Card">Master Card<br>
+                        <input type="radio" name="Payment" value="American Express">American Express<br>
+                    </p>
+                    <input type="submit" value="submit">
+
+                </form>
+
+        </form>
+    </body>
+
+</html>

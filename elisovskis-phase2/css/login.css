@@ -55,6 +55,11 @@ button {
     
 }
 
+footer {
+    padding: 1em;
+    color: white;
+}
+
 /* button input {
     display: inline-block;
     font-size: 1em;
@@ -128,4 +133,9 @@ header a:active {
 #submit-button:hover {
     background-color: rgba(132, 132, 132, 0.8); 
     transition: all 0.2s ease-in-out;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: auto;
 }

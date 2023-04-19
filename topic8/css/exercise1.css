@@ -1,0 +1,22 @@
+caption {
+    text-align: center;
+    font-size: 2rem;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    width: 98vw;
+}
+
+table {
+    border-style: solid;
+    padding: 1rem;
+}
+
+th {
+    background-color: lightgray;
+}
+
+th, td {
+    border-style: solid;
+    text-align: center;
+}
